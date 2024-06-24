@@ -1,0 +1,18 @@
+inherit cmake
+
+NAME="fmt"
+VERSION=10.2.1
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="A modern formatting library"
+DESCRIPTION="{fmt} is an open-source formatting library providing a
+fast and safe alternative to C stdio and C++ iostreams."
+HOMEPAGE="https://fmt.dev/"
+LICENSE="MIT"
+SRC_URI="https://github.com/fmtlib/fmt/archive/refs/tags/${VERSION}.tar.gz"
+PKG_NAMES="${NAME} ${NAME}-devel ${NAME}-doc"
+CYGCMAKE_ARGS=-DBUILD_SHARED_LIBS=ON
+# see PKG_CONTENTS
+fmt_CONTENTS="usr/bin/cygfmt-10.dll"
+fmt_devel_CONTENTS="usr/include/ usr/lib/"
+fmt_doc_CONTENTS="usr/share/doc"
