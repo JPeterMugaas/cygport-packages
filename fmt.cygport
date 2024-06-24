@@ -15,4 +15,6 @@ CYGCMAKE_ARGS=-DBUILD_SHARED_LIBS=ON
 # see PKG_CONTENTS
 fmt_CONTENTS="usr/bin/cygfmt-10.dll"
 fmt_devel_CONTENTS="usr/include/ usr/lib/"
+fmt_devel_CATEGORY="Devel"
 fmt_doc_CONTENTS="usr/share/doc"
+fmt_doc_CATEGORY="Doc"
