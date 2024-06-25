@@ -1,0 +1,6 @@
+category: Libs
+requires: cygwin libgcc1 libstdc++6
+sdesc: "A modern formatting library"
+ldesc: "{fmt} is an open-source formatting library providing a
+fast and safe alternative to C stdio and C++ iostreams."
+

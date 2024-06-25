@@ -1,0 +1,9 @@
+category: Libs
+build-depends: cygport 
+sdesc: "A modern formatting library"
+ldesc: "{fmt} is an open-source formatting library providing a
+fast and safe alternative to C stdio and C++ iostreams."
+skip:
+
+homepage: https://fmt.dev/
+license: MIT
